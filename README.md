@@ -1,4 +1,4 @@
-# Laurine wa-bot
+# JUNE MD
 
 ![Project Image](https://pomf2.lain.la/f/u9wt713u.png)
 

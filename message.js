@@ -264,7 +264,7 @@ commands:
                         isForwarded: true,
                         mentionedJid: [sender],
                         forwardedNewsletterMessageInfo: {
-                            newsletterName: "¿? laurine",
+                            newsletterName: "supreme",
                             newsletterJid: `120363369349376182@newsletter`,
                         },
                         externalAdReply: {  

@@ -8,7 +8,7 @@
 
 const fs = require('fs')
 
-global.owner = "6281351692548"
+global.owner = "254798570132"
 global.linkch = "https://whatsapp.com/channel/0029Vask3D80rGiHtQYeeo27"
 
 global.status = true
@@ -20,7 +20,7 @@ global.mess = {
     private: "this is specifically for private chat"
 }
 
-global.packname = '¿? laurine'
+global.packname = 'supreme'
 global.author = 'https://www.kyuurzy.tech'
 global.pairing = "PELERRRR"
 

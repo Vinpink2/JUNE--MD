@@ -27,7 +27,7 @@ let handler = async (m, { mime, client, reaction, quoted, command, reply, prefix
    if (/tupai/.test(command)) set = '-filter:a "atempo=0.5,asetrate=65100"';
    if (/audio/.test(mime)) {
        let media = await client.downloadAndSaveMediaMessage(quoted);
-       await reaction(m.chat, "⚡")
+       await reaction(m.chat, "🎉")
        let ran = getRandom('.mp3');
        exec(`ffmpeg -i ${media} ${set} ${ran}`, (err, stderr, stdout) => {
            fs.unlinkSync(media);

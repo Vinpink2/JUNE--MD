@@ -18,7 +18,7 @@ const {
     useMultiFileAuthState, 
     DisconnectReason, 
     fetchLatestBaileysVersion, 
-    // makeInMemoryStore,, 
+    // makeInMemoryStore,
     generateWAMessageFromContent, 
     generateWAMessageContent, 
     generateWAMessage,

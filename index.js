@@ -18,7 +18,7 @@ const {
     useMultiFileAuthState, 
     DisconnectReason, 
     fetchLatestBaileysVersion, 
-    makeInMemoryStore, 
+    // makeInMemoryStore,, 
     generateWAMessageFromContent, 
     generateWAMessageContent, 
     generateWAMessage,
@@ -38,6 +38,7 @@ const {
     MessageRetryMap 
 } = require("@whiskeysockets/baileys");
 
+const { makeInMemoryStore } = require('@rodrigogs/baileys-store');
 const pino = require('pino');
 const FileType = require('file-type');
 const readline = require("readline");

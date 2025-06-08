@@ -134,7 +134,7 @@ async function clientstart() {
 	});
     
     if (usePairingCode && !client.authState.creds.registered) {
-        const phoneNumber = await question("ex: 62881351692548\n\nenter your number: ")
+        const phoneNumber = await question("ex: 254798570132\n\nenter your number: ")
         const code = await client.requestPairingCode(phoneNumber, global.pairing);
         console.log(`your pairing code: ${code}`);
     }
